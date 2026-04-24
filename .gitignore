@@ -1,0 +1,52 @@
+# Dependencies
+backend/vendor/
+mobile-app/node_modules/
+
+# Environment files
+.env
+.backend/.env
+mobile-app/.env
+*.env.local
+
+# Build outputs
+mobile-app/dist/
+mobile-app/web-build/
+mobile-app/android/
+mobile-app/ios/
+
+# Cache
+*.cache
+mobile-app/.expo/
+backend/cache/
+backend/tmp/
+
+# Logs
+*.log
+backend/logs/
+mobile-app/npm-debug.log*
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Composer
+composer.lock
+
+# Metro
+mobile-app/.metro-health-check*
+
+# Fingerprint
+mobile-app/.fingerprint*
+
+# Runtime data
+pids
+*.pid
+*.seed
