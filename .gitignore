@@ -1,5 +1,4 @@
 # Dependencies
-backend/vendor/
 mobile-app/node_modules/
 
 # Environment files
