@@ -106,6 +106,13 @@ const ProfileScreen = ({ navigation }) => {
         <Text style={styles.tokenText}>✅ Token JWT Valid & Aktif</Text>
       </View>
 
+      <TouchableOpacity 
+        style={[styles.logoutBtn, { backgroundColor: '#4f46e5', marginBottom: 12 }]} 
+        onPress={() => navigation.navigate('ProductList')}
+      >
+        <Text style={styles.logoutText}>Manage Products</Text>
+      </TouchableOpacity>
+
       <TouchableOpacity style={styles.logoutBtn} onPress={handleLogout}>
         <Text style={styles.logoutText}>Logout</Text>
       </TouchableOpacity>
