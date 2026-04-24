@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // Ganti 'localhost' dengan IP lokal Anda jika menjalankan di HP fisik
 // Contoh: 'http://192.168.1.100/jwt/api/'
 const apiClient = axios.create({
-  baseURL: 'http://10.61.4.188/jwt-project/backend/api/',
+  baseURL: 'http://10.60.4.201/jwt-project/backend/api/',
   headers: { 'Content-Type': 'application/json' }
 });
 
